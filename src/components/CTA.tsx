@@ -15,7 +15,7 @@ const CTA = () => {
           
           <div className="flex flex-col gap-4 sm:flex-row justify-center">
             <Button variant="cta" size="lg" asChild>
-              <a href="https://chrome.google.com/webstore/detail/payplan/your-extension-id" target="_blank" rel="noopener noreferrer">
+              <a href="https://chrome.google.com/webstore" target="_blank" rel="noopener noreferrer">
                 <Chrome className="mr-2 h-5 w-5" />
                 Add to Chrome - It's Free
               </a>

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Chrome, Star } from "lucide-react";
-import heroImage from "@/assets/hero-image.jpg";
+import heroImage from "@/assets/Front-image.png";
 
 const Hero = () => {
   return (
@@ -22,7 +22,7 @@ const Hero = () => {
 
             <div className="flex flex-col gap-4 sm:flex-row">
               <Button variant="cta" size="lg" asChild>
-                <a href="https://chrome.google.com/webstore/detail/payplan/your-extension-id" target="_blank" rel="noopener noreferrer">
+                <a href="https://chrome.google.com/webstore" target="_blank" rel="noopener noreferrer">
                   <Chrome className="mr-2 h-5 w-5" />
                   Add to Chrome - It's Free
                 </a>

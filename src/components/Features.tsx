@@ -1,9 +1,8 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import featureDetection from "@/assets/feature-detection.jpg";
-import featureCalendar from "@/assets/feature-calendar.jpg";
-import featureSync from "@/assets/feature-sync.jpg";
-import featurePrivacy from "@/assets/feature-privacy.jpg";
-import featureReminders from "@/assets/feature-reminders.jpg";
+import featureCalendar from "@/assets/popup-calendar.png";
+import featureSync from "@/assets/popup-sync.png";
+
 
 const features = [
   {

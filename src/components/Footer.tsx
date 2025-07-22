@@ -29,7 +29,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://chrome.google.com/webstore/detail/payplan/your-extension-id" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="https://chrome.google.com/webstore" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
                   Chrome Extension
                 </a>
               </li>
@@ -61,7 +61,7 @@ const Footer = () => {
             <h3 className="font-semibold text-foreground">Get Started</h3>
             <div className="space-y-2">
               <a 
-                href="https://chrome.google.com/webstore/detail/payplan/your-extension-id" 
+                href="https://chrome.google.com/webstore" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 text-sm text-muted-foreground hover:text-foreground transition-colors"

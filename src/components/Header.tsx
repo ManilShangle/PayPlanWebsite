@@ -17,7 +17,7 @@ const Header = () => {
       
 
         <Button variant="cta" size="sm" asChild>
-          <a href="https://chrome.google.com/webstore/detail/payplan/your-extension-id" target="_blank" rel="noopener noreferrer">
+          <a href="https://chrome.google.com/webstore" target="_blank" rel="noopener noreferrer">
             <Chrome className="mr-2 h-4 w-4" />
             Add to Chrome
           </a>
