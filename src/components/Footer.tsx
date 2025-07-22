@@ -1,4 +1,5 @@
 import { Chrome } from "lucide-react";
+import logo from '../assets/icon.png';
 
 const Footer = () => {
   return (
@@ -7,9 +8,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-primary">
-                <span className="text-lg font-bold text-white">P</span>
-              </div>
+              <img
+                src={logo}
+                alt="Logo"
+                className="h-8 w-8 object-contain"
+              />
               <span className="text-xl font-bold text-foreground">PayPlan</span>
             </div>
             <p className="text-sm text-muted-foreground max-w-xs">

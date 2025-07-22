@@ -30,7 +30,7 @@ const CTA = () => {
             </div>
             <div className="flex flex-col items-center space-y-2">
               <Users className="h-8 w-8 text-primary" />
-              <h3 className="font-semibold text-foreground">10,000+ Users</h3>
+              <h3 className="font-semibold text-foreground">Beginner-friendly</h3>
               <p className="text-sm text-muted-foreground text-center">Trusted by the community</p>
             </div>
             <div className="flex flex-col items-center space-y-2">

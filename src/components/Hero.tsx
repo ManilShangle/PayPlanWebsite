@@ -34,14 +34,14 @@ const Hero = () => {
               </Button>
             </div>
 
-            <div className="flex items-center gap-4 text-sm text-muted-foreground">
+            {/* <div className="flex items-center gap-4 text-sm text-muted-foreground">
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <span>Trusted by 10,000+ users</span>
-            </div>
+              <span>Trusted by Google</span>
+            </div> */}
           </div>
 
           <div className="relative">

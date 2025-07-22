@@ -24,18 +24,7 @@ const features = [
     image: featureSync,
     highlight: "Seamless Sync"
   },
-  {
-    title: "Privacy-Focused",
-    description: "All data stays on your device. Nothing is shared or stored externally.",
-    image: featurePrivacy,
-    highlight: "100% Private"
-  },
-  {
-    title: "Custom Reminders",
-    description: "Easily adjust payment schedules, amounts, and notification preferences.",
-    image: featureReminders,
-    highlight: "Fully Customizable"
-  }
+
 ];
 
 const Features = () => {
