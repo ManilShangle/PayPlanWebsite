@@ -35,21 +35,13 @@
         .logo {
             display: inline-flex;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0 rem;
             margin-bottom: 1rem;
         }
-        
-        .logo-icon {
-            width: 32px;
-            height: 32px;
-            background: linear-gradient(135deg, #059669, #10b981);
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-weight: bold;
-            font-size: 18px;
+
+        .logo-img {
+            width: 30px;
+            height: auto; 
         }
         
         .logo-text {
@@ -99,6 +91,28 @@
             border: 2px dashed #d1d5db;
             text-align: center;
         }
+
+        .content h2 {
+            font-size: 1.5rem;
+            color: #111827;
+            margin-bottom: 0.75rem;
+        }
+
+        .content h3 {
+            font-size: 1.125rem;
+            color: #1f2937;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .content ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .content p {
+            margin-bottom: 1rem;
+        }
     </style>
 </head>
 <body>
@@ -107,27 +121,73 @@
         
         <div class="header">
             <div class="logo">
-                <div class="logo-icon">P</div>
+                <img class="logo-img" src="icon.png">
                 <span class="logo-text">PayPlan</span>
             </div>
             <h1>Privacy Policy</h1>
             <p class="subtitle">How we protect and handle your data</p>
         </div>
-        
+
         <div class="content">
-            <div class="placeholder">
-                <p><strong>Privacy Policy content goes here.</strong></p>
-                <p>Edit this file (public/privacy.html) to add your actual privacy policy text.</p>
-                <br>
-                <p>Key points to cover:</p>
-                <ul style="text-align: left; margin-top: 1rem;">
-                    <li>What data PayPlan collects</li>
-                    <li>How it handles Google Calendar access</li>
-                    <li>Data storage and security practices</li>
-                    <li>User rights and contact information</li>
-                </ul>
-            </div>
+            <p style="margin-bottom: 1rem;">Last updated: July 21, 2025</p>
+
+            <p>PayPlan is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Chrome Extension. By installing or using our Extension, you agree to the terms of this policy.</p>
+
+            <h2 style="margin-top: 2rem;">1. Information We Collect</h2>
+            <h3>a. Personal Information</h3>
+            <p>We do not collect personally identifiable information such as your name, email, or phone number.</p>
+
+            <h3>b. Usage Data</h3>
+            <p>When you use the Extension, we may collect the following information automatically:</p>
+            <ul>
+                <li>Transaction data such as purchase details and vendor names to track BNPL payments.</li>
+                <li>Anonymous usage data and analytics to improve Extension performance.</li>
+            </ul>
+
+            <h3>c. Permissions</h3>
+            <p>To function properly, the Extension may request permissions including:</p>
+            <ul>
+                <li>Access to webpage content to detect BNPL confirmation pages.</li>
+                <li>Access to Google Calendar (if enabled) to create, update, or delete events.</li>
+            </ul>
+
+            <h2 style="margin-top: 2rem;">2. How We Use Your Information</h2>
+            <ul>
+                <li>To provide and improve BNPL detection and calendar syncing features.</li>
+                <li>To process screenshots or scanned data for payment schedules.</li>
+                <li>To sync your payments with Google Calendar (if you opt in).</li>
+                <li>To communicate important notices or updates through the Extension.</li>
+            </ul>
+
+            <h2 style="margin-top: 2rem;">3. Data Storage and Security</h2>
+            <p>Your data is stored locally in your browser's extension storage and is not sent to external servers unless you enable calendar sync. In that case:</p>
+            <ul>
+                <li>Data is securely sent to Google’s servers using OAuth.</li>
+                <li>We use reasonable security measures to protect your data.</li>
+                <li>No system is 100% secure, but we strive to minimize risks.</li>
+            </ul>
+
+            <h2 style="margin-top: 2rem;">4. Sharing Your Information</h2>
+            <ul>
+                <li>We do not sell, trade, or rent your information.</li>
+                <li>We only share data to comply with legal requirements if necessary.</li>
+                <li>Data shared with Google Calendar is handled according to Google’s privacy policy.</li>
+            </ul>
+
+            <h2 style="margin-top: 2rem;">5. Your Rights and Choices</h2>
+            <ul>
+                <li>You can disable calendar syncing at any time via the Extension settings.</li>
+                <li>You may delete stored transactions and data within the Extension.</li>
+                <li>Uninstalling the Extension removes all local data.</li>
+            </ul>
+
+            <h2 style="margin-top: 2rem;">6. Children’s Privacy</h2>
+            <p>The Extension is not intended for children under 13, and we do not knowingly collect information from them.</p>
+
+            <h2 style="margin-top: 2rem;">7. Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, contact us at: <br>
+            <strong>markschater@gmail.com</strong></p>
         </div>
-    </div>
+            </div>
 </body>
 </html>
