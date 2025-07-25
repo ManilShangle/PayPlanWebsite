@@ -40,17 +40,17 @@ const Footer = () => {
             <h3 className="font-semibold text-foreground">Support</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="/support.html" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="support.html" className="text-muted-foreground hover:text-foreground transition-colors">
                   Help Center
                 </a>
               </li>
               <li>
-                <a href="/privacy.html" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="privacy.html" className="text-muted-foreground hover:text-foreground transition-colors">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="/terms.html" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="terms.html" className="text-muted-foreground hover:text-foreground transition-colors">
                   Terms of Service
                 </a>
               </li>
